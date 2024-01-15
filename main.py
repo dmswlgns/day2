@@ -1,0 +1,5 @@
+print("hello")
+print(0.2)
+print(2e-1)
+print(314e-2)
+print()
