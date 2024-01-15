@@ -1,20 +1,18 @@
-base_number=int(input("input base number:"))
+# first_number=int(input("First number:"))
+#
+# second_number=int(input("Second number:"))
+#
+# quotient=first_number//second_number
+#
+# remainder=first_number%second_number
+#
+# print(f'몫은 {quotient} 나머지는 {remainder}입니다')
 
-exponent_number=int(input("input exponent number:"))
+first_number=int(input("First number:"))
 
+second_number=int(input("Second number:"))
 
-print(type(base_number))
-
-print(type(exponent_number))
-
-print(base_number**exponent_number)
-
-print(pow(base_number,exponent_number))
-
-print("밑는 {0} 지수은 {1}, 결과값은 {2}".format(base_number,exponent_number,base_number**exponent_number))
-
-print(f"지수는 {exponent_number},밑은 {base_number},결과값은 {base_number**exponent_number}")
-
+print(f'몫은 {divmod(first_number,second_number)[0]} 나머지는 {divmod(first_number,second_number)[1]}입니다')
 
 
 
